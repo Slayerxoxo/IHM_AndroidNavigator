@@ -1,20 +1,22 @@
-package info.androidhive.slidingmenu;
+package info.univnantes.slidingmenu;
 
+import info.androidhive.slidingmenu.R;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class QrCodeFragment extends Fragment {
+public class DeconnexionFragment extends Fragment {
 	
-	public QrCodeFragment(){}
+	public DeconnexionFragment(){}
+	
 	
 	@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
  
-        View rootView = inflater.inflate(R.layout.fragment_pages, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_whats_hot, container, false);
          
         return rootView;
     }
