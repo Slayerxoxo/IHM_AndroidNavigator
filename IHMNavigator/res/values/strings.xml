@@ -31,7 +31,7 @@
 <!--         <item>@drawable/ic_wifi</item> -->
 <!--         <item>@drawable/ic_gps</item> -->
 <!--         <item>@drawable/ic_mobilite</item> -->
-<!--         <item>@drawable/ic_deconnexion</item> -->
+        <item>@drawable/ic_deconnexion</item>
     </array>
     
     <!-- Content Description -->
