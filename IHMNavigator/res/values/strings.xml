@@ -24,7 +24,7 @@
     <!-- Keep them in order as the titles are in -->
     <array name="nav_drawer_icons">
         <item>@drawable/ic_home</item>
-<!--         <item>@drawable/ic_profil</item> -->
+        <item>@drawable/ic_profil</item>
 <!--         <item>@drawable/ic_dest</item> -->
         <item>@drawable/ic_map_test</item> -->
 <!--         <item>@drawable/ic_qrcode</item> -->
