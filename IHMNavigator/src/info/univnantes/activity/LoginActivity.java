@@ -1,11 +1,10 @@
-package info.univnantes.login;
+package info.univnantes.activity;
 
 import info.androidhive.slidingmenu.R;
 import info.androidhive.slidingmenu.R.id;
 import info.androidhive.slidingmenu.R.layout;
 import info.androidhive.slidingmenu.R.menu;
 import info.androidhive.slidingmenu.R.string;
-import info.univnantes.slidingmenu.MainActivity;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;

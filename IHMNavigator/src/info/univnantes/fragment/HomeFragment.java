@@ -1,4 +1,4 @@
-package info.univnantes.slidingmenu;
+package info.univnantes.fragment;
 
 import info.androidhive.slidingmenu.R;
 import android.app.Fragment;
@@ -7,15 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class ProfileFragment extends Fragment {
+public class HomeFragment extends Fragment {
 	
-	public ProfileFragment(){}
+	public HomeFragment(){}
 	
 	@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
  
-        View rootView = inflater.inflate(R.layout.fragment_find_people, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_home, container, false);
          
         return rootView;
     }

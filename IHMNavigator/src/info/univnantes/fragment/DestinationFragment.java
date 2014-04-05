@@ -1,4 +1,4 @@
-package info.univnantes.slidingmenu;
+package info.univnantes.fragment;
 
 import info.androidhive.slidingmenu.R;
 import android.app.Fragment;

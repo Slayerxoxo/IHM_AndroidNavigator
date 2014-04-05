@@ -1,4 +1,4 @@
-package info.univnantes.slidingmenu.model;
+package info.univnantes.model;
 
 public class NavDrawerItem {
 	

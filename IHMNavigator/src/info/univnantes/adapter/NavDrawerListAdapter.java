@@ -1,7 +1,7 @@
-package info.univnantes.slidingmenu.adapter;
+package info.univnantes.adapter;
 
 import info.androidhive.slidingmenu.R;
-import info.univnantes.slidingmenu.model.NavDrawerItem;
+import info.univnantes.model.NavDrawerItem;
 
 import java.util.ArrayList;
 

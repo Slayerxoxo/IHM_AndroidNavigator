@@ -1,8 +1,14 @@
-package info.univnantes.slidingmenu;
+package info.univnantes.activity;
 
 import info.androidhive.slidingmenu.R;
-import info.univnantes.slidingmenu.adapter.NavDrawerListAdapter;
-import info.univnantes.slidingmenu.model.NavDrawerItem;
+import info.univnantes.adapter.NavDrawerListAdapter;
+import info.univnantes.fragment.CarteFragment;
+import info.univnantes.fragment.DeconnexionFragment;
+import info.univnantes.fragment.DestinationFragment;
+import info.univnantes.fragment.HomeFragment;
+import info.univnantes.fragment.ProfileFragment;
+import info.univnantes.fragment.QrCodeFragment;
+import info.univnantes.model.NavDrawerItem;
 
 import java.util.ArrayList;
 

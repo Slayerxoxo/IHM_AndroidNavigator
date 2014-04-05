@@ -14,12 +14,12 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="info.univnantes.slidingmenu.MainActivity"
+            android:name="info.univnantes.activity.MainActivity"
             android:label="@string/app_name" >
             
         </activity>
         <activity
-            android:name="info.univnantes.login.LoginActivity"
+            android:name="info.univnantes.activity.LoginActivity"
             android:label="@string/title_activity_login"
             android:windowSoftInputMode="adjustResize|stateVisible" >
             <intent-filter>

@@ -1,4 +1,4 @@
-package info.univnantes.slidingmenu;
+package info.univnantes.fragment;
 
 import info.androidhive.slidingmenu.R;
 import android.app.Fragment;
@@ -7,16 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class DeconnexionFragment extends Fragment {
+public class ProfileFragment extends Fragment {
 	
-	public DeconnexionFragment(){}
-	
+	public ProfileFragment(){}
 	
 	@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
  
-        View rootView = inflater.inflate(R.layout.fragment_whats_hot, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_profil, container, false);
          
         return rootView;
     }
