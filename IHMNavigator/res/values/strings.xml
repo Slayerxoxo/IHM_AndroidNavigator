@@ -25,9 +25,9 @@
     <array name="nav_drawer_icons">
         <item>@drawable/ic_home</item>
         <item>@drawable/ic_profil</item>
-<!--         <item>@drawable/ic_dest</item> -->
+<!--         <item>@drawable/ic_recherche</item> -->
         <item>@drawable/ic_map_test</item> -->
-<!--         <item>@drawable/ic_qrcode</item> -->
+        <item>@drawable/ic_qrcode</item>
 <!--         <item>@drawable/ic_wifi</item> -->
 <!--         <item>@drawable/ic_gps</item> -->
 <!--         <item>@drawable/ic_mobilite</item> -->
