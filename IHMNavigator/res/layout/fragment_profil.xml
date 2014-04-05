@@ -19,17 +19,7 @@
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="21dp"
-        android:text="email : prenom.nom@etud.univ-nantes.fr"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
-
-    <TextView
-        android:id="@+id/mdp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_below="@+id/textView3"
-        android:layout_marginTop="23dp"
-        android:text="mdp : ***********"
+        android:text="email : prenom.nom@etu.univ-nantes.fr"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <Button
