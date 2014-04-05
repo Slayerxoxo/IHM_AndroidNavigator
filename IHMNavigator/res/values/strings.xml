@@ -41,5 +41,5 @@
     <string name="btn_enter_target">Entrer une destination</string>
     <string name="btn_display_map">Voir la carte</string>
     <string name="btn_flash_QRCode">Flasher un QrCode</string>
-
+    
 </resources>
