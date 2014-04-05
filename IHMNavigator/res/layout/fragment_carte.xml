@@ -3,33 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <Button
-        android:id="@+id/buttonFlashQRCode"
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/buttonDisplayMap"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/buttonDisplayMap"
-        android:layout_marginBottom="168dp"
-        android:text="@string/btn_flash_QRCode" />
-
-    <Button
-        android:id="@+id/buttonDisplayMap"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonFlashQRCode"
-        android:layout_alignLeft="@+id/buttonEnterTarget"
-        android:layout_alignRight="@+id/buttonEnterTarget"
-        android:layout_marginBottom="30dp"
-        android:text="@string/btn_display_map" />
-
-    <Button
-        android:id="@+id/buttonEnterTarget"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonDisplayMap"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="32dp"
-        android:text="@string/btn_enter_target" />
+        android:layout_marginTop="18dp"
+        android:text="Carte"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/ic_map_test" />
 
 </RelativeLayout>
