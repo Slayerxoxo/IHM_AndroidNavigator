@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -195,7 +196,13 @@ public class MainActivity extends Activity {
 			fragment = new QrCodeFragment();
 			break;
 		case 8:
-			fragment = new DeconnexionFragment();
+			FragmentManager fragmentManager = getFragmentManager();
+			fragmentManager.beginTransaction()
+					.replace(R.id.frame_container, new DeconnexionFragment()).commit();
+			mDrawerLayout.closeDrawer(mDrawerList);
+
+			Intent intent = new Intent(this, LoginActivity.class);
+			startActivity(intent);
 			break;
 
 		default:
