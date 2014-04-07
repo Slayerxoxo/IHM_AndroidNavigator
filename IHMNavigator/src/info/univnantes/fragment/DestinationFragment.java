@@ -25,7 +25,7 @@ public class DestinationFragment extends Fragment {
         EditText dest = (EditText) rootView.findViewById(R.id.editText1);
         dest.setLines(1);
         
-        ListView list = (ListView) rootView.findViewById(R.id.listView1);
+        ListView list = (ListView) rootView.findViewById(R.id.roomsView);
         ArrayAdapter<String> adapter1;
         String[] data = {"salle 46","salle I012","salle I011","salle I112","salle I003","salle 49"};
 
